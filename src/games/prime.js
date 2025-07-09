@@ -20,7 +20,7 @@ const generateRound = () => {
 };
 
 const runPrimeGame = (name) => {
-  runGame(name, 'Responde "yes" si el número es primo, de lo contrario responde "no".', generateRound);
+  runGame(name, 'Responde "yes" si el número dado es primo. De lo contrario, responde "no".', generateRound);
 };
 
 export default runPrimeGame;
