@@ -2,8 +2,13 @@ import runGame from '../index.js';
 
 const getRandomNumber = (min = 1, max = 50) => Math.floor(Math.random() * (max - min + 1)) + min;
 
-const generateProgression = (start, step, length = 10) => Array.from({ length },
-  (_, i) => start + i * step);
+const generateProgression = (start, step) => {
+  const progression = [];
+  for (let i = 0; i < 10; i += 1) {
+    progression.push(start + i * step);
+  }
+  return progression;
+};
 const generateRound = () => {
   const start = getRandomNumber();
   const step = getRandomNumber(2, 10);
