@@ -14,7 +14,7 @@ const generateRound = () => {
     case '-': result = a - b; break;
     case '*': result = a * b; break;
     default:
-    throw new Error(`Operador desconocido: ${operator}`);
+      throw new Error(`Operador desconocido: ${operator}`);
   }
 
   return {
