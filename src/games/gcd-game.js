@@ -21,7 +21,7 @@ const generateRound = () => {
 };
 
 const runGcdGame = (name) => {
-  runGame(name, 'Encuentra el máximo común divisor de los dos números.', generateRound);
+  runGame(name, 'Encuentra el máximo común divisor de los números dados.', generateRound);
 };
 
 export default runGcdGame;
