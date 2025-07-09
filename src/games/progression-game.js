@@ -4,7 +4,6 @@ const getRandomNumber = (min = 1, max = 50) => Math.floor(Math.random() * (max -
 
 const generateProgression = (start, step, length = 10) =>
   Array.from({ length }, (_, i) => start + i * step);
-
 const generateRound = () => {
   const start = getRandomNumber();
   const step = getRandomNumber(2, 10);
