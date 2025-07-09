@@ -3,4 +3,3 @@
 import saludo from '../src/cli.js';
 
 saludo();
-
